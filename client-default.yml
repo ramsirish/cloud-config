@@ -3,6 +3,10 @@ server:
   
 service:
  name: foo
+ 
+spring:
+  application:
+    name: client-service
 
 eureka:
   client:
